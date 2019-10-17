@@ -38,7 +38,7 @@ void loop() {
 
   // update op basis van sensordata de actuatorstatus(sen)
   if (verstrekenTijd > wachtTijdVoorLED) {
-    if (LEDStatus = HIGH) {
+    if (LEDStatus == HIGH) {
       ledStatus = LOW;
     }
     else {
